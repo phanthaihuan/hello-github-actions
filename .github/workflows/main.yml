@@ -10,3 +10,7 @@ jobs:
       - uses: ./action-a
         with:
           MY_NAME: "HUAN"
+      - shell: bash
+        run: |
+          ping -c 5 192.168.10.29 2>&1 > 10.29.txt
+        
