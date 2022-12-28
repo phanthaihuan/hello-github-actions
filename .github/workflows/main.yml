@@ -12,5 +12,7 @@ jobs:
           MY_NAME: "HUAN"
       - shell: bash
         run: |
+          pwd 
+          ls -al
           ping -c 5 192.168.10.29 2>&1 > 10.29.txt
         
