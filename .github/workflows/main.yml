@@ -17,4 +17,5 @@ jobs:
           uptime
           ping -c 5 192.168.10.29
           echo "Huan" > huan.txt
+          ssh administrator@192.168.10.29 "hostname"
         
